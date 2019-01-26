@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Web Syte</title>
+
+
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="animate.min.css">
+
+    <style>
+
+                                                                                  
+
+    .historia{
+        background: rgb(14, 14, 14);
+    }
+
+    .nav-link{
+        color: silver;
+    }
+    .nav-link:hover{
+        color: white;
+    }
+
+    .cover{
+        background: url("cover.jpg");
+        height: 100vh;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+
+    .inicio{
+       background: rgb(17, 17, 17);
+       
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+    }
+    .entrada{
+        position: relative;
+        top: 20rem;
+     
+        
+    }
+   
+    .formulario{
+        background: url("enviar.jpg");
+     
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+     
+     
+    }
+    .services .card{
+        background-color: rgb(39, 39, 39);
+        min-height: 200px;
+    }
+    .overlay{
+    background: rgba(0, 0, 0, 0.705);
+    height: 100vh;
+    }
+    img{
+        transition: 1s all ease-in-out;
+    }
+    img:hover{
+        transform: rotateY(360deg);
+        transform-style: preserve-3d;
+    }
+    .encabezado{
+        background: rgba(0, 0, 0, 0.9);
+        transition: 1s all ease-in;
+    }
+    .fondo-menu{
+        padding: 2rem;
+        transition: 1s all ease-out;
+        background: rgb(26, 26, 26);
+    }
+    .our-team{
+       
+       background: black;
+    }
+    .our-team .card{
+      min-height: 600px;
+      background: black;
+      border: 1px solid silver;
+    }
+    footer{
+        background: rgb(20, 20, 20);
+    }
+    .flecha-bajar{
+        font-size: 2rem;
+        color: red;
+    }
+    </style>
+</head>
+
+<body>
+    <!-- menu de navegacion -->
+
+    <!-- cover -->
+    
+
+    <header class="cover" id="home">
+   
+        <div class="overlay">
+
+            <nav class="encabezado navbar navbar-dark navbar-expand-lg sticky-top">
+                <div class="container">
+                    <a class="text-white navbar-brand" href="#">MASS EFFECT ANDROMEDA</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                        <ul class="navbar-nav ml-auto">
+                            <li class="nav-item">
+                                <a class="animated  nav-link" data-scroll href="#home">Inicio <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a data-scroll class="animated  nav-link" href="#history">Historia</a>
+                            </li>
+                            <li class="nav-item">
+                                <a data-scroll class="animated  nav-link" href="#services">Misiones</a>
+                            </li>
+                            <li class="nav-item">
+                                <a data-scroll class="animated  nav-link" href="#team">Personajes</a>
+                            </li>
+                            <li class="nav-item">
+                                <a  data-scroll class="animated  nav-link" href="#contact">Contactanos</a>
+
+                            </li>
+
+
+
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="container text-center entrada text-white">
+                <h1 class="text-white animated fadeInDown">MASS EFFECT ANDROMEDA</h1>
+                <p class="animated fadeInDownBig">EXPLORA MASS EFFECT: ANDROMEDA EN THE VAULT</p>
+                <a data-scroll href="#formulario" class="btn btn-info animated pulse infinite">Mas Informacion</a>
+            </div>
+
+
+        </div>
+
+    </header>
+
+
+
+    <section class="p-5 historia" id="history">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-4">
+                    <img class="wow fadeInLeftBig img-fluid w-75" src="logo.svg" alt="">
+
+                </div>
+                
+                <div class="col-md-8">
+                    <h1 class="text-white-50 wow fadeInUp">Historia</h1>
+                    <p class="text-white-50 wow fadeIn h5">Mass Effect está situado en el año 2183. Treinta y cinco
+                        años antes, la humanidad descubrió un alijo de tecnología construido por una civilización
+                        tecnológicamente avanzada pero extinta. Esta raza se denominaba Proteanos. Gracias al estudio y
+                        adaptación de esta tecnología la Humanidad ha logrado salir del Sistema Solar y establecer
+                        numerosas colonias, además de encontrar a varias especies extraterrestres, todo esto en la Vía
+                        Láctea. La utilización de herramientas de tecnología proteana, conocidos como Relés de Masa ha
+                        permitido a las diversas especies viajar instantáneamente a través de vastas extensiones de la
+                        Galaxia.
+
+                        El juego tiene lugar principalmente en dos escenarios: El prototipo de fragata SSV Normandía y
+                        la Ciudadela, una gigantesca y antigua estación espacial supuestamente construida por los
+                        Proteanos y que actualmente actúa como centro de la civilización galáctica.</p>
+                    <p class="h5 text-white-50">Sin embargo, a lo largo del juego el jugador puede navegar, mediante la
+                        Normandía, a varios planetas, lunas y otros destinos.En el juego la humanidad ha formado la
+                        Alianza de Sistemas Humanos, uno de los muchos organismos independientes que componen el
+                        colectivo del Espacio de la Ciudadela, este último es gobernado por un órgano conocido como el
+                        Consejo de la Ciudadela, que se compone de un miembro de cada una de las tres razas más
+                        poderosas y destacadas: Turianos, Asari y Salarianos.</p>
+
+
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="p-5 bg-white-50 servicios" id="services">
+        <div class="container-fluid services">
+            <h1 class="wow bounceInLeft text-black text-center mb-3">Misiones</h1>
+            <div class="row">
+                <div class="col-lg-3 col-sm-6">
+
+                    <div class="card wow pulse">
+                        <div class="card-body text-center">
+                            <h4 class="text-white-50">
+                                ESCONDIDO A SIMPLE VISTA</h4>
+                            <p>LA LUCHA TERMINA PRONTO – CONSULTA A CONTINUACIÓN EL TIEMPO RESTANTE</p>
+                            <button type="button" class="animated pulse infinite btn btn-outline-secondary" data-toggle="modal"
+                                data-target="#modal1">
+                                Mas Informacion
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="card wow pulse">
+                        <div class="card-body text-center">
+                            <h4 class="text-white-50">CONEXIONES DESCONOCIDAS</h4>
+                            <p>MISIÓN COMPLETADA EL 17/07/2017</p>
+                            <!-- <a class="btn btn-outline-secondary" href="">Mas Informacion</a> -->
+                            <button type="button" class="animated pulse infinite btn btn-outline-secondary" data-toggle="modal"
+                                data-target="#modal2">
+                                Mas Informacion
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="card wow pulse">
+                        <div class="card-body text-center">
+                            <h4 class="text-white-50">LA LLAMADA DESDE EL INTERIOR</h4>
+                            <p>MISIÓN COMPLETADA EL 10/07/2017</p>
+                            <button type="button" class="animated pulse infinite btn btn-outline-secondary" data-toggle="modal"
+                                data-target="#modal3">
+                                Mas Informacion
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-lg-3 col-sm-6">
+                    <div class="card wow pulse">
+                        <div class="card-body text-center">
+                            <h4 class="text-white-50">NO BUSQUES PROBLEMAS</h4>
+                            <p>MISIÓN COMPLETADA EL 26/06/2017</p>
+                            <button type="button" class="animated pulse infinite btn btn-outline-secondary" data-toggle="modal"
+                                data-target="#modal4">
+                                Mas Informacion
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- modals -->
+    <div class="modal fade" id="modal1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-lg" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel"> ESCONDIDO A SIMPLE VISTA</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+
+                    <p class="h4 text-black-50">Una nave kett ha respondido a la llamada y el batariano que buscamos
+                        estaba en el asiento del piloto. Por desgracia, los forajidos de la zona han notado que pasa
+                        algo.
+
+                        Dificultad de la partida: plata
+                        Modificador a la partida: sin reanimaciones/combotástico
+
+                        Sin reanimaciones: sin reanimaciones durante las oleadas; los jugadores solo reviven al final.
+                        Combotástico: +100% al daño de detonación y +50% al radio de detonación.
+                    </p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modal4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    ...
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="modal fade" id="modalp1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="bg-transparent modal-content">
+
+                <div class="modal-body">
+                    <img class="w-100" src="p1.png" alt="">
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalp2" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="bg-transparent modal-content">
+
+                <div class="modal-body">
+                    <img class="w-100" src="p2.png" alt="">
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalp3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="bg-transparent modal-content">
+
+                <div class="modal-body">
+                    <img class="w-75" src="p3.png" alt="">
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="modalp4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="bg-transparent modal-content">
+
+                <div class="modal-body">
+                    <img class="w-100" src="p4.png" alt="">
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <section class="tarje py-5 bg-primary">
+        <h1 class="text-center text-white-50">Preguntas Frecuentes:</h1>
+        <div class="container mt-4">
+            <div class="accordion" id="accordionExample">
+                <div class="card bg-secondary">
+                    <div class="card-header bg-secondary" id="headingOne">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
+                                aria-expanded="true" aria-controls="collapseOne">
+                                Collapsible Group Item #1
+                            </button>
+                        </h5>
+                    </div>
+
+                    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                        <div class="card-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+                            squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa
+                            nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
+                            single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft
+                            beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher
+                            vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt
+                            you probably haven't heard of them accusamus labore sustainable VHS.
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="card">
+                    <div class="card-header bg-secondary" id="headingTwo">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo"
+                                aria-expanded="false" aria-controls="collapseTwo">
+                                Collapsible Group Item #2
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                        <div class="card-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+                            squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa
+                            nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
+                            single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft
+                            beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher
+                            vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt
+                            you probably haven't heard of them accusamus labore sustainable VHS.
+                        </div>
+                    </div>
+                </div>
+                <br>
+                <div class="card">
+                    <div class="card-header bg-secondary" id="headingThree">
+                        <h5 class="mb-0">
+                            <button class="btn btn-link collapsed" type="button" data-toggle="collapse" data-target="#collapseThree"
+                                aria-expanded="false" aria-controls="collapseThree">
+                                Collapsible Group Item #3
+                            </button>
+                        </h5>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                        <div class="card-body">
+                            Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad
+                            squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa
+                            nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid
+                            single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft
+                            beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher
+                            vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt
+                            you probably haven't heard of them accusamus labore sustainable VHS.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- nuestro equipo -->
+
+    <section class="p-5 our-team" id="team">
+        <div class="container-fluid">
+            <h1 class="text-white-50 wow fadeInLeft text-center mb-4">Personajes</h1>
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card wow bounceInDown">
+                        <div class="card-header bg-primary">
+                            <h6 class="text-white-50">Alex Smith</h6>
+                        </div>
+                        <div class="wow bounceInDown card-body text-center">
+
+                            <img data-toggle="modal" data-target="#modalp1" class="animated pulse infinite img-fluid w-50"
+                                src="p1.png" alt="">
+
+                            <p>Lorem, ipsum dolor.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="wow bounceInDown card">
+                        <div class="card-header bg-primary">
+                            <h6 class="text-white-50">John Carter</h6>
+                        </div>
+                        <div class="card-body text-center">
+
+                            <img data-toggle="modal" data-target="#modalp2" class="img-fluid w-50" src="p2.png" alt="">
+                            <p>Lorem, ipsum dolor.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card wow bounceInDown">
+                        <div class="card-header bg-primary">
+                            <h6 class="text-white-50">Lee Chaolan</h6>
+                        </div>
+                        <div class="card-body text-center">
+
+                            <img data-toggle="modal" data-target="#modalp3" class="img-fluid w-50" src="p3.png" alt="">
+                            <p>Lorem, ipsum dolor.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card wow bounceInDown">
+                        <div class="card-header bg-primary">
+                            <h6 class="text-white-50">Anna Williams</h6>
+                        </div>
+                        <div class="card-body text-center">
+
+                            <img data-toggle="modal" data-target="#modalp4" class="img-fluid w-50" src="p4.png" alt="">
+                            <p>Lorem, ipsum dolor.</p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+    <section class="p-5 inicio">
+        <div class="container text-center">
+            <h6 class="text-white">Mass Effect: Andromeda lleva a los jugadores más allá de los confines de la Vía
+                Láctea y hasta las profundidades de la galaxia de Andrómeda. Conviértete en un pionero y lidera la
+                búsqueda de un nuevo hogar para la humanidad en esta inexplorada y peligrosa región del espacio.</h6>
+            <button id="texto" class="btn btn-warning mt-3 animated pulse infinite">Comprar ya</button>
+        </div>
+
+    </section>
+
+
+    <section id="contact" class="formulario p-5">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-6">
+                    <h2 class="wow fadeInDownBig text-white">Contactanos</h2>
+
+                    <div class="form-group">
+                        <label for="">Nombre Usuario</label>
+                        <input type="text" placeholder="UserName" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="">Correo</label>
+                        <input type="email" placeholder="Email" class="form-control">
+                    </div>
+                    <div class="form-group">
+                        <label for="">Mensaje</label>
+                        <textarea class="form-control" name="" id="" cols="" rows="4"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <a class="wow pulse btn btn-info d-block" href="">Enviar</a>
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
+
+    </section>
+
+
+    <footer class="p-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <small>All right Reserved | home | help | Mas Informacion | MX</small>
+
+                </div>
+            </div>
+        </div>
+
+
+    </footer>
+
+
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <script src="smooth-scroll.min.js"></script>
+    <script src="wow.min.js"></script>
+    <script>
+        smoothScroll.init({
+            speed: 1000, // Integer. How fast to complete the scroll in milliseconds
+            offset: 60, // Integer. How far to offset the scrolling anchor location in pixels
+
+        });
+    </script>
+
+    <script>
+        new WOW().init();
+    </script>
+    <script>
+        $(window).scroll(function () {
+
+            var nav = $('.encabezado');
+            var scroll = $(window).scrollTop();
+
+            if (scroll >= 100) {
+                nav.addClass("fondo-menu");
+            } else {
+                nav.removeClass("fondo-menu");
+            }
+        });
+    </script>
+
+</body>
+
+</html>
