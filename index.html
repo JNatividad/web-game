@@ -62,7 +62,7 @@
         min-height: 200px;
     }
     .overlay{
-    background: rgba(0, 0, 0, 0.705);
+    background: rgba(0, 0, 0, 0.514);
     height: 100vh;
     }
     img{
@@ -97,6 +97,45 @@
         font-size: 2rem;
         color: red;
     }
+    @media (max-width:400px){
+        
+        .historia p{
+           text-align: center;
+        }
+        .historia h2{
+            font-size: 1rem;
+            text-align: center;
+        }
+        .historia img{
+            display: none;
+        }
+        .misiones .card{
+            margin-top: 1rem;
+        }
+        .preguntas h2{
+            font-size: 1rem;
+        }
+        .personajes h2{
+            font-size: 1rem;
+            text-align: center;
+        }
+        .personajes .card{
+            
+            margin-top: 1rem;
+            min-height: 100px;
+          
+        }
+        .inicio h6{
+            font-size: .5rem;
+
+        }
+        .inicio button{
+         font-size: .5rem;
+        }
+        #contact h2{
+            font-size: 1.1rem;
+            text-align: center;
+        }
     </style>
 </head>
 
@@ -159,12 +198,12 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-4">
-                    <img class="wow fadeInLeftBig img-fluid w-75" src="logo.svg" alt="">
+                    <img class="wow fadeInLeftBig mt-5 img-fluid w-75 align-self-center" src="logo.png" alt="">
 
                 </div>
                 
                 <div class="col-md-8">
-                    <h1 class="text-white-50 wow fadeInUp">Historia</h1>
+                    <h2 class="text-white-50 wow fadeInUp">Historia</h2>
                     <p class="text-white-50 wow fadeIn h5">Mass Effect está situado en el año 2183. Treinta y cinco
                         años antes, la humanidad descubrió un alijo de tecnología construido por una civilización
                         tecnológicamente avanzada pero extinta. Esta raza se denominaba Proteanos. Gracias al estudio y
@@ -192,7 +231,7 @@
     </section>
 
 
-    <section class="p-5 bg-white-50 servicios" id="services">
+    <section class="p-5 bg-white-50 servicios misiones" id="services">
         <div class="container-fluid services">
             <h1 class="wow bounceInLeft text-black text-center mb-3">Misiones</h1>
             <div class="row">
@@ -397,7 +436,7 @@
     </div>
 
     <section class="tarje py-5 bg-primary">
-        <h1 class="text-center text-white-50">Preguntas Frecuentes:</h1>
+        <h2 class="text-center text-white-50">Preguntas Frecuentes:</h2>
         <div class="container mt-4">
             <div class="accordion" id="accordionExample">
                 <div class="card bg-secondary">
@@ -473,9 +512,9 @@
 
     <!-- nuestro equipo -->
 
-    <section class="p-5 our-team" id="team">
+    <section class="p-5 our-team personajes" id="team">
         <div class="container-fluid">
-            <h1 class="text-white-50 wow fadeInLeft text-center mb-4">Personajes</h1>
+            <h2 class="text-white-50 wow fadeInLeft text-center mb-4">Personajes</h2>
             <div class="row">
                 <div class="col-md-3">
                     <div class="card wow bounceInDown">
